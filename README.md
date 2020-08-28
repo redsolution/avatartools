@@ -4,9 +4,7 @@ A couple of small utilities to generate random avatars for users of incognito gr
 ## generateavatars
 Simple utility to generate avatars of different shapes and colors from prepared blueprints. The result of the program generates 128*128px avatars like these:
 
-![sample generated avatars](generateavatar.png)
-
-Prerequisites:
+<img src="./generateavatar.png" width="640">
 
 - ___images___ folder must exist and contain template 128x128 images in .png format. While there are no restrictions on image contents, best results are achieved with black-on-transparent template images. _No non-images files are allowed in this folder, the program currently does not retry image generation if randomly chosen file turns out to be a non-image_
 - ___colors.json___ file must contain JSON with a list of available colors. 
@@ -22,7 +20,7 @@ Where _folder_ is a folder to store the output file.
 ## mergeavatars
 Simple utility to merge two different avatars, for use in two-person private chats. The result of the program generates 128*128px avatars like these:
 
-![sample merged avatars](mergeavatars.png)
+<img src="./mergeavatars.png" width="640">
 
 Usage: 
 
