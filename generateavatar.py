@@ -172,8 +172,10 @@ def generateAvatarImage(folder):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='A simple utility to generate nicknames and matching avatars.')
-    parser.add_argument('Path', metavar='path', type=str, help='You must specify path to store generated images',)
+    parser.add_argument('Path', metavar='path', type=str, help='You must specify path to store generated images')
+
     args = parser.parse_args()
+
     destinationFolder = os.path.abspath(args.Path)
 
     # check if the user had provided a folder
